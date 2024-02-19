@@ -20,7 +20,7 @@
 
 }
 
-@media only screen and (min-width: 600px){
+@media only screen and (min-width: 720px){
     /* For tablets */
     .col-s-1 {width: 8.33%;}
     .col-s-2 {width: 16.66%;}
@@ -59,7 +59,7 @@
     }
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 720px) {
     div.gone {
         display:none;
     }
@@ -67,7 +67,7 @@
 
 /* If the screen size is 601px or more, set the 
 font-size of <div> to 25px */
-@media only screen and (min-width: 601px) {
+@media only screen and (min-width: 721px) {
     div.fontflex {
         font-size: 25px;
     }
@@ -75,11 +75,12 @@ font-size of <div> to 25px */
 
 /* If the screen size is 600px or less, set the 
 font-size of <div> to 15px */
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 720px) {
     div.fontflex {
         font-size: 15px;
     }
 }
+
 html {
     font-family: "Lucida Sans", sans-serif;
 }
